@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <a href="file:///C:/Users/madli/OneDrive/Desktop/%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20html/page1.html">انتقال الي الصفحة الاولي</a>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>منصة البيئات الافتراضية - محمية</title>
+<style>
+    body { font-family: Arial; margin:0; padding:0; background-color:#f4f4f4; }
+    .cover { width:100%; height:300px; background-image:url('https://via.placeholder.com/1200x300'); background-size:cover; background-position:center; }
+    header { background-color:#4CAF50; color:white; padding:20px; text-align:center; }
+    nav { background-color:#333; overflow:hidden; }
+    nav a { float:left; display:block; color:white; padding:14px 20px; text-decoration:none; }
+    nav a:hover { background-color:#ddd; color:black; }
+    .unit { margin:20px; padding:20px; background:white; box-shadow:0 0 5px rgba(0,0,0,0.1); }
+    .unit h2 { color:#333; }
+    video, iframe { width:100%; height:400px; margin-top:10px; }
+    .quiz p { font-weight:bold; }
+    .quiz button { margin-top:10px; padding:10px; background-color:#2196F3; border:none; color:white; cursor:pointer; }
+    .result { margin-top:10px; padding:10px; background:#e7f3fe; border-left:6px solid #2196F3; display:none; }
+    #protectedContent { display:none; }
+    #accessPage { text-align:center; margin-top:100px; }
+    #accessPage button { padding:15px 30px; font-size:16px; cursor:pointer; background:#4CAF50; color:white; border:none; }
+</style>
+</head>
+<body>
+
+<!-- الصفحة الأولية -->
+<div id="accessPage">
+    <h1>مرحباً بك في منصة البيئات الافتراضية</h1>
+    <button onclick="promptPassword()">اضغط هنا للدخول</button>
+</div>
+
+<!-- المحتوى المحمي -->
+<div id="protectedContent">
+
+<header>
+    <h1>منصة البيئات الافتراضية</h1>
+</header>
+
+<nav>
+    <a href="#unit1">الوحدة الأولى</a>
+    <a href="#unit2">الوحدة الثانية</a>
+</nav>
+
+<div class="cover"></div>
+
+<!-- الوحدة الأولى -->
+<div class="unit" id="unit1">
+    <h2>الوحدة الأولى: البيئات الافتراضية</h2>
+    <p>شرح شامل عن مفهوم البيئات الافتراضية وأنواعها واستخداماتها.</p>
+    <iframe src="c:\Users\madli\OneDrive\Desktop\مشروع html\VID-20251213-WA0032.mp4" title="mp4 " frameborder="0" allowfullscreen></iframe>
+    <div class="quiz" id="quiz1">
+        <h3>اختبار الوحدة الأولى</h3>
+        <p>س1: البيئات الافتراضية يمكن استخدامها في التعليم. (صح/خطأ)</p>
+        <input type="radio" name="q1" value="صح"> صح<br>
+        <input type="radio" name="q1" value="خطأ"> خطأ<br>
+
+        <p>س2: يمكن للطالب التفاعل مباشرة مع البيئة الافتراضية. (صح/خطأ)</p>
+        <input type="radio" name="q2" value="صح"> صح<br>
+        <input type="radio" name="q2" value="خطأ"> خطأ<br>
+
+        <p>س3: أي من التالي يعتبر نوعًا من البيئات الافتراضية؟</p>
+        <input type="radio" name="q3" value="1"> الواقع الافتراضي VR<br>
+        <input type="radio" name="q3" value="2"> الفيديو التقليدي<br>
+        <input type="radio" name="q3" value="3"> الكتب الورقية<br>
+
+        <p>س4: البيئات الافتراضية تساعد على التعلم العملي دون مخاطر. (صح/خطأ)</p>
+        <input type="radio" name="q4" value="صح"> صح<br>
+        <input type="radio" name="q4" value="خطأ"> خطأ<br>
+
+        <p>س5: استخدام البيئات الافتراضية محدود فقط للألعاب. (صح/خطأ)</p>
+        <input type="radio" name="q5" value="صح"> صح<br>
+        <input type="radio" name="q5" value="خطأ"> خطأ<br>
+
+        <p>س6: يمكن محاكاة الواقع الواقعي في البيئة الافتراضية. (صح/خطأ)</p>
+        <input type="radio" name="q6" value="صح"> صح<br>
+        <input type="radio" name="q6" value="خطأ"> خطأ<br>
+
+        <p>س7: الواقع المعزز جزء من البيئات الافتراضية. (صح/خطأ)</p>
+        <input type="radio" name="q7" value="صح"> صح<br>
+        <input type="radio" name="q7" value="خطأ"> خطأ<br>
+
+        <p>س8: أي من التالي ليس بيئة افتراضية؟</p>
+        <input type="radio" name="q8" value="1"> الواقع الافتراضي<br>
+        <input type="radio" name="q8" value="2"> الكتب الورقية<br>
+        <input type="radio" name="q8" value="3"> محاكاة الكمبيوتر<br>
+
+        <p>س9: البيئات الافتراضية تسمح بالتجربة دون خطر. (صح/خطأ)</p>
+        <input type="radio" name="q9" value="صح"> صح<br>
+        <input type="radio" name="q9" value="خطأ"> خطأ<br>
+
+        <p>س10: التعلم الافتراضي يمكن أن يكون تفاعليًا. (صح/خطأ)</p>
+        <input type="radio" name="q10" value="صح"> صح<br>
+        <input type="radio" name="q10" value="خطأ"> خطأ<br>
+
+        <button onclick="checkQuiz1()">عرض النتيجة</button>
+        <div class="result" id="quiz1Result"></div>
+    </div>
+</div>
+
+<!-- الوحدة الثانية -->
+<div class="unit" id="unit2">
+    <h2>الوحدة الثانية: تكنولوجيا البيئات الافتراضية</h2>
+    <p>شرح شامل للتكنولوجيا المستخدمة في البيئات الافتراضية وأهم الأدوات.</p>
+    <iframe src="c:\Users\madli\OneDrive\Desktop\مشروع html\VID-20251213-WA0024.mp4" title="mp4" frameborder="51.6" allowfullscreen></iframe>
+
+    <div class="quiz" id="quiz2">
+        <h3>اختبار الوحدة الثانية</h3>
+        <p>س1: البرمجيات المستخدمة تشمل محركات الألعاب. (صح/خطأ)</p>
+        <input type="radio" name="q11" value="صح"> صح<br>
+        <input type="radio" name="q11" value="خطأ"> خطأ<br>
+
+        <p>س2: يمكن استخدام الواقع المعزز AR ضمن تكنولوجيا البيئات الافتراضية. (صح/خطأ)</p>
+        <input type="radio" name="q12" value="صح"> صح<br>
+        <input type="radio" name="q12" value="خطأ"> خطأ<br>
+
+        <p>س3: أي من التالي يُستخدم في تصميم بيئة افتراضية؟</p>
+        <input type="radio" name="q13" value="1"> Unity<br>
+        <input type="radio" name="q13" value="2"> Microsoft Word<br>
+        <input type="radio" name="q13" value="3"> PowerPoint<br>
+
+        <p>س4: تكنولوجيا البيئات الافتراضية تساعد على محاكاة الواقع. (صح/خطأ)</p>
+        <input type="radio" name="q14" value="صح"> صح<br>
+        <input type="radio" name="q14" value="خطأ"> خطأ<br>
+
+        <p>س5: يمكن استخدام التكنولوجيا فقط للترفيه. (صح/خطأ)</p>
+        <input type="radio" name="q15" value="صح"> صح<br>
+        <input type="radio" name="q15" value="خطأ"> خطأ<br>
+
+        <p>س6: يمكن دمج VR وAR لتجربة أكثر تفاعلية. (صح/خطأ)</p>
+        <input type="radio" name="q16" value="صح"> صح<br>
+        <input type="radio" name="q16" value="خطأ"> خطأ<br>
+
+        <p>س7: محركات الألعاب تستخدم فقط للألعاب ولا علاقة لها بالتعليم. (صح/خطأ)</p>
+        <input type="radio" name="q17" value="صح"> صح<br>
+        <input type="radio" name="q17" value="خطأ"> خطأ<br>
+
+        <p>س8: Unity وUnreal من أشهر أدوات تطوير البيئات الافتراضية. (صح/خطأ)</p>
+        <input type="radio" name="q18" value="صح"> صح<br>
+        <input type="radio" name="q18" value="خطأ"> خطأ<br>
+
+        <p>س9: يمكن عرض محتوى البيئات الافتراضية على أجهزة متعددة. (صح/خطأ)</p>
+        <input type="radio" name="q19" value="صح"> صح<br>
+        <input type="radio" name="q19" value="خطأ"> خطأ<br>
+
+        <p>س10: الواقع المعزز يستخدم فقط في الهواتف المحمولة. (صح/خطأ)</p>
+        <input type="radio" name="q20" value="صح"> صح<br>
+        <input type="radio" name="q20" value="خطأ"> خطأ<br>
+
+        <button onclick="checkQuiz2()">عرض النتيجة</button>
+        <div class="result" id="quiz2Result"></div>
+    </div>
+</div>
+
+<script>
+const correctPassword = "1234"; // حطي هنا الباسورد اللي تحبيه
+
+function promptPassword() {
+    let pass = prompt("ادخلي كلمة المرور:");
+    if(pass === correctPassword) {
+        document.getElementById("accessPage").style.display = "none";
+        document.getElementById("protectedContent").style.display = "block";
+    } else {
+        alert("كلمة المرور خاطئة!");
+    }
+}
+
+// تصحيح اختبار الوحدة الأولى
+function checkQuiz1() {
+    let score = 0;
+    if(document.querySelector('input[name="q1"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q2"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q3"]:checked')?.value==="1") score++;
+    if(document.querySelector('input[name="q4"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q5"]:checked')?.value==="خطأ") score++;
+    if(document.querySelector('input[name="q6"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q7"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q8"]:checked')?.value==="2") score++;
+    if(document.querySelector('input[name="q9"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q10"]:checked')?.value==="صح") score++;
+    const resultDiv = document.getElementById('quiz1Result');
+    resultDiv.style.display = "block";
+    resultDiv.innerHTML = "لقد حصلت على " + score + " من 10 نقاط";
+}
+
+// تصحيح اختبار الوحدة الثانية
+function checkQuiz2() {
+    let score = 0;
+    if(document.querySelector('input[name="q11"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q12"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q13"]:checked')?.value==="1") score++;
+    if(document.querySelector('input[name="q14"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q15"]:checked')?.value==="خطأ") score++;
+    if(document.querySelector('input[name="q16"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q17"]:checked')?.value==="خطأ") score++;
+    if(document.querySelector('input[name="q18"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q19"]:checked')?.value==="صح") score++;
+    if(document.querySelector('input[name="q20"]:checked')?.value==="خطأ") score++;
+    const resultDiv = document.getElementById('quiz2Result');
+    resultDiv.style.display = "block";
+    resultDiv.innerHTML = "لقد حصلت على " + score + " من 10 نقاط";
+}
+</script>
+
+</body>
+</html>
